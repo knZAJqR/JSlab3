@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">  
+    <script>
+        function swap()
+         {
+    let [a, b] = [document.getElementById('a'), document.getElementById('b')];
+    [a.value, b.value] = [b.value, a.value];
+         }
+    </script>
+    </head>
+    <body>
+    <H1>Перестановка значень</H1>
+    <FORM NAME="Test" onsubmit="return false">
+        <input id="a" type="text" VALUE="ZIEIT">
+        <input id="b" type="text" VALUE="ZNU">
+        <button onClick="swap()">Rearrange</button> 
+    </FORM>
+    </body>
+    </html>
